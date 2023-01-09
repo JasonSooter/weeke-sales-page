@@ -11,9 +11,12 @@ export default function Header() {
         <ul>
           <li>—Model: Weeke Optimat BHP008 Vantech 510—</li>
           <li>—Clean and in excellent shape. Spindle Rebuilt in 2021—</li>
-          <li>—<b>$50,000+</b> savings compared with buying a new one—</li>
-          <li>—Includes Amazon product that sold $300k+ in 2020—</li>
+          <li>
+            —<b>$50,000+</b> savings compared with buying a new one—
+          </li>
+          {/* <li>-Asking Price: $85,000</li> */}
         </ul>
+        <h2>Asking Price: $85,000</h2>
         <iframe
           width="100%"
           style={{ maxWidth: 750 }}
@@ -31,7 +34,11 @@ export default function Header() {
               href="#three"
               className="button scrolly"
               children="View Photo Gallery"
-              onClick={() => window?.analytics?.track("Button Clicked", { section: "Photo Gallery" })}
+              onClick={() =>
+                window?.analytics?.track('Button Clicked', {
+                  section: 'Photo Gallery'
+                })
+              }
             />
           </li>
           <li>
@@ -40,7 +47,11 @@ export default function Header() {
               href="#four"
               className="button scrolly"
               children="View Technical Specs"
-              onClick={() => window?.analytics?.track("Button Clicked", { section: "Technical Specs" })}
+              onClick={() =>
+                window?.analytics?.track('Button Clicked', {
+                  section: 'Technical Specs'
+                })
+              }
             />
           </li>
           <li>
@@ -49,7 +60,11 @@ export default function Header() {
               href="#five"
               className="button scrolly"
               children="Key Features"
-              onClick={() => window?.analytics?.track("Button Clicked", { section: "Key Features" })}
+              onClick={() =>
+                window?.analytics?.track('Button Clicked', {
+                  section: 'Key Features'
+                })
+              }
             />
           </li>
           <li>
@@ -58,11 +73,15 @@ export default function Header() {
               href="#six"
               className="button scrolly"
               children="Contact"
-              onClick={() => window?.analytics?.track("Button Clicked", { section: "Contact" })}
+              onClick={() =>
+                window?.analytics?.track('Button Clicked', {
+                  section: 'Contact'
+                })
+              }
             />
           </li>
         </ul>
       </div>
-    </section >
+    </section>
   );
 }
