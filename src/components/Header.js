@@ -21,7 +21,7 @@ export default function Header() {
           width="100%"
           style={{ maxWidth: 750 }}
           height="422"
-          src="https://youtu.be/1PsZp2vKGQw"
+          src="https://www.youtube.com/embed/1PsZp2vKGQw"
           title="Weeke CNC Demo Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
